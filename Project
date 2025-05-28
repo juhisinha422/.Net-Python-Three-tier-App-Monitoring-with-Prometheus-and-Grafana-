@@ -1,0 +1,49 @@
+# Now clone the repo
+# https://github.com/juhisinha422/k8s-kind-voting-app.git
+
+# cd /home/ubuntu/kind_cluster/Projects/monitoring
+# git clone https://github.com/juhisinha422/k8s-kind-voting-app.git
+# cd k8s-kind-voting-app
+# cd k8s-specifications
+# cat result-deployment.yaml (check for ns)
+# kubectl apply -f .
+# kubectl get pods
+# kubectl get svc
+
+ 
+
+# Enable the vote service
+# /k8s-specifications$ kubectl port-forward svc/vote 5000:5000 --address=0.0.0.0 &
+
+# enable the security grp and enable port no 5000
+
+# Enable the result service
+# kubectl port-forward svc/result 50001:5001 --address=0.0.0.0 &
+
+# Enable port 5001 in security grp.
+
+# Access the vote-app
+# Public_IP:5000
+
+ 
+
+	Now go to Grafana dashboard
+	Select Dashboards -> Kubernetes/Networking/Workload
+
+ 
+
+# Now access the result app.
+# Public_IP:5001
+
+ 
+
+
+# Now go to https://grafana.com/grafana/dashboards/15661-k8s-dashboard-en-20250125/
+# Select any dashboard of ur choice.
+# Copy id: 15661
+
+# Go to Grafana dashboard -> new -> import -> paste id -> select Prometheus -> import.
+
+ 
+
+
