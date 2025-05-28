@@ -99,8 +99,17 @@ https://tecadmin.net/how-to-setup-prometheus-and-grafana-on-ubuntu/
 # select value: monitoring
 # Click on run queries.
 # see the metrics.
- 
 
+# we can make custom dashboards also.
+# https://grafana.com/grafana/dashboards/
+# go to above link and search: Kubernetes Cluster (Prometheus)
+# Click on copy id to dashboard: 6417
+
+# Now go to your Grafana dashboard.
+# click on new -> import
+# paste the id -> load
+# select Prometheus
+# Click import
 
 --------------------------------------------------------------------------------------
 
