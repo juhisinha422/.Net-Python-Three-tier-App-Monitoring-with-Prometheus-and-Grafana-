@@ -1,0 +1,17 @@
+🚀Monitoring & Logging in Kubernetes
+
+Adding another skill to my DevOps journey-Monitoring!
+
+I have successfully set up monitoring and logging for a Kubernetes cluster using Prometheus and Grafana, diving deeper into observability. Here's the process I followed:
+
+Set up monitoring, logging, and gain insights from the cluster by following these steps with Helm charts:
+
++ Installed and configured Prometheus.
+
+Ran kubectl commands to gather Kubernetes resources. Used port forwarding to access Prometheus and Grafana.
+
+✔ Executed Prometheus queries to monitor container and CPU usage.
+
+Logged into Grafana and added Prometheus as the data source.
+
+Created a Grafana dashboard to visualize real-time insights from the Kubernetes cluster.
